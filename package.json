@@ -7,24 +7,24 @@
     "build": "npm run build:css && remix build",
     "build:css": "windicss app/**/*.{tsx,jsx} -m -b -o ./app/windi.css",
     "dev": "concurrently \"npm run dev:css\" \"remix dev\"",
-    "dev:css": "windicss app/**/*.{tsx,jsx} -d -b -o ./app/windi.css",
+    "dev:css": "windicss app/**/*.{tsx,jsx} -m -d -b -o ./app/windi.css",
     "postinstall": "remix setup node",
     "start": "remix-serve build"
   },
   "dependencies": {
-    "@remix-run/react": "^1.1.1",
-    "@remix-run/serve": "^1.1.1",
+    "@remix-run/react": "^1.2.2",
+    "@remix-run/serve": "^1.2.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "remix": "^1.1.1"
+    "remix": "^1.2.2"
   },
   "devDependencies": {
-    "@remix-run/dev": "^1.1.1",
-    "@types/react": "^17.0.24",
-    "@types/react-dom": "^17.0.9",
+    "@remix-run/dev": "^1.2.2",
+    "@types/react": "^17.0.39",
+    "@types/react-dom": "^17.0.11",
     "concurrently": "^7.0.0",
-    "typescript": "^4.1.2",
-    "windicss": "^3.4.3"
+    "typescript": "^4.5.5",
+    "windicss": "^3.5.0"
   },
   "engines": {
     "node": ">=14"
