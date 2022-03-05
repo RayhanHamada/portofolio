@@ -39,7 +39,7 @@ export default function App() {
         <Meta />
         <Links />
       </head>
-      <body className="font-mono bg-[#303030]">
+      <body className="font-mono bg-[#303030] h-[120vh]">
         <Header />
         <Outlet />
         <ScrollRestoration />
