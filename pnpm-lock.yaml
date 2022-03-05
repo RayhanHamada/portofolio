@@ -6,12 +6,13 @@ specifiers:
   '@remix-run/serve': ^1.2.2
   '@types/react': ^17.0.39
   '@types/react-dom': ^17.0.11
+  '@types/tailwindcss': ^3.0.9
   concurrently: ^7.0.0
   react: ^17.0.2
   react-dom: ^17.0.2
   remix: ^1.2.2
   typescript: ^4.5.5
-  windicss: ^3.5.0
+  windicss: ^3.5.1
 
 dependencies:
   '@remix-run/react': 1.2.2_react-dom@17.0.2+react@17.0.2
@@ -24,9 +25,10 @@ devDependencies:
   '@remix-run/dev': 1.2.2_react-dom@17.0.2+react@17.0.2
   '@types/react': 17.0.39
   '@types/react-dom': 17.0.11
+  '@types/tailwindcss': 3.0.9
   concurrently: 7.0.0
   typescript: 4.5.5
-  windicss: 3.5.0
+  windicss: 3.5.1
 
 packages:
 
@@ -332,6 +334,10 @@ packages:
 
   /@types/scheduler/0.16.2:
     resolution: {integrity: sha512-hppQEBDmlwhFAXKJX2KnWLYu5yMfi91yazPb2l+lbJiwW+wdo1gNeRA+3RgNSO39WYX2euey41KEwnqesU2Jew==}
+    dev: true
+
+  /@types/tailwindcss/3.0.9:
+    resolution: {integrity: sha512-uZjNKNjlA6cr6py/GWsDjevJb/Bl0fmaMNUdIpNMW3TJGJzxN9O6uFWx97LiSK7ithWNrrDSytq1FdvHpgSvWg==}
     dev: true
 
   /@types/unist/2.0.6:
@@ -3379,8 +3385,8 @@ packages:
       is-typed-array: 1.1.8
     dev: false
 
-  /windicss/3.5.0:
-    resolution: {integrity: sha512-+UNYm2Zy4TM2uLiz6bqY2a69LavMqGbILFIwuGhPEJ/uqsPT3kCGSaWlhMw/weIaFOkm1K1cEzZ015Y8pp8N1A==}
+  /windicss/3.5.1:
+    resolution: {integrity: sha512-E1hYZATcZFci/XhGS0sJAMRxULjnK+glNukE78Ku7xeb3jxgMY55fFOdIrav+GjQCsgR+IZxPq9/DwmO6eyc4Q==}
     engines: {node: '>= 12'}
     hasBin: true
     dev: true
