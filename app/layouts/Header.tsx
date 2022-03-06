@@ -1,28 +1,28 @@
 import { Link } from 'remix';
 import HeaderLogo from '~/components/HeaderLogo';
 
-const links = [
-  {
-    to: '/',
-    title: 'Me',
-  },
-  {
-    to: '/projects',
-    title: 'Projects',
-  },
-  {
-    to: '/stack',
-    title: 'TechStack',
-  },
-  {
-    to: '/contact',
-    title: 'Contact',
-  },
-  {
-    to: '/blogs',
-    title: 'Blogs',
-  },
-];
+// const links = [
+//   {
+//     to: '/',
+//     title: 'Me',
+//   },
+//   {
+//     to: '/projects',
+//     title: 'Projects',
+//   },
+//   {
+//     to: '/stack',
+//     title: 'TechStack',
+//   },
+//   {
+//     to: '/contact',
+//     title: 'Contact',
+//   },
+//   {
+//     to: '/blogs',
+//     title: 'Blogs',
+//   },
+// ];
 
 const Header: React.FC = (_props) => {
   return (
