@@ -40,7 +40,7 @@ export default function App() {
         <Meta />
         <Links />
       </head>
-      <body className="font-mono bg-[#303030] h-[120vh]">
+      <body className="font-mono bg-[#303030]">
         <Header />
         <SideNav />
         <Outlet />
