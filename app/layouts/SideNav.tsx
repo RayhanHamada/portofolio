@@ -11,7 +11,7 @@ const links = [
   },
   {
     to: '/stack',
-    title: 'TechStack',
+    title: 'Tech Stack',
   },
   {
     to: '/contact',
