@@ -1,7 +1,8 @@
 import { ErrorBoundaryComponent } from 'remix';
+import MainLayout from '~/layouts/MainLayout';
 
 export default function Index() {
-  return <div>{/* <p>gk error</p> */}</div>;
+  return <MainLayout>Main Layout Disini</MainLayout>;
 }
 
 export const ErrorBoundary: ErrorBoundaryComponent = ({ error }) => {
