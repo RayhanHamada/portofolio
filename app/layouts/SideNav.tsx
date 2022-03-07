@@ -39,7 +39,7 @@ const links = [
 const SideNav: React.FC = (_props) => {
   return (
     <nav className="fixed z-9 px-7 h-full flex flex-col bg-[#202020] w-2 overflow-x-hidden border-0 border-r-1 border-solid border-[#e41749] hover:w-xs">
-      <ul className="relative py-4 flex flex-col space-y-4 top-[61px]">
+      <ul className="relative py-4 flex flex-col space-y-4 top-20">
         {links.map(({ title, to, icon: Icon }) => (
           <li key={to} className="my-0">
             <Link
