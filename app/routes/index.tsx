@@ -28,16 +28,35 @@ export default function Index() {
         />
 
         <p className="text-[#e41749] text-md md:text-2xl lg:text-5xl font-bold tracking-wide">
-          Muhammmad Rayhan Hamada Budiman
+          Muhammad Rayhan Hamada Budiman
         </p>
         <p className="text-xs md:text-base">
           Student. Programmer. Procrastinator.
         </p>
         <hr className="h-[1px] w-[80%] bg-[#e41749]" />
-        <p className="w-[80%]">
+        <p className="w-[80%] text-center">
           Honestly, i don't really know how i got here. All i know i was facing
-          a problem or sighted something interesting, try to build solution to
-          solve it, or even better, try to improve the solution itself.
+          a problem, go try to build solution to solve it, or even better, try
+          to improve the solution itself.
+        </p>
+
+        <p className="w-[80%] text-center">
+          Or in the absent of problems, i would think of something interesting,
+          like
+        </p>
+        <p className="w-[80%] text-xl text-center">
+          "What if i build a{' '}
+          <a className="underline">
+            programming language that lets you specify your own syntax
+          </a>{' '}
+          ?"
+        </p>
+        <p className="w-[80%] text-center">
+          And so i try to build{' '}
+          <a href="" className="underline">
+            Exprezeene
+          </a>{' '}
+          (in bahasa you can call it "Ekspresiin")
         </p>
       </div>
     </MainLayout>
