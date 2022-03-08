@@ -34,30 +34,77 @@ export default function Index() {
           Student. Programmer. Procrastinator.
         </p>
         <hr className="h-[1px] w-[80%] bg-[#e41749]" />
-        <p className="w-[80%] text-center">
-          Honestly, i don't really know how i got here. All i know i was facing
-          a problem, go try to build solution to solve it, or even better, try
-          to improve the solution itself.
-        </p>
+        <div className="w-[80%] text-center space-y-8">
+          <p className="">
+            Honestly, i don't really know how i got here. All i know i was
+            facing some problems, go try to build solution to solve it, or even
+            better, try to improve the solution itself.
+          </p>
 
-        <p className="w-[80%] text-center">
-          Or in the absent of problems, i would think of something interesting,
-          like
-        </p>
-        <p className="w-[80%] text-xl text-center">
-          "What if i build a{' '}
-          <a className="underline">
-            programming language that lets you specify your own syntax
-          </a>{' '}
-          ?"
-        </p>
-        <p className="w-[80%] text-center">
-          And so i try to build{' '}
-          <a href="" className="underline">
-            Exprezeene
-          </a>{' '}
-          (in bahasa you can call it "Ekspresiin")
-        </p>
+          <p className="">
+            Or in the absent of problems, i would think of something interesting
+            like,
+          </p>
+          <p className="text-2xl">
+            "What if i build a{' '}
+            <a
+              href="https://softwareengineering.stackexchange.com/questions/131196/is-there-a-personalizable-programming-language-you-can-use-to-convert-to-others"
+              className="underline"
+            >
+              programming language that lets you specify your own syntax
+            </a>{' '}
+            ?"
+          </p>
+          <p className="">
+            And so i try to build{' '}
+            <a
+              href="https://github.com/RayhanHamada/Exprezeene"
+              className="underline"
+            >
+              Exprezeene
+            </a>{' '}
+            (in bahasa you can call it "Ekspresiin")
+          </p>
+          <p className="text-[#e41749]">But it failed :(</p>
+          <p>
+            And instead, i finish{' '}
+            <a
+              href="https://github.com/RayhanHamada/Exprezeene"
+              className="underline"
+            >
+              a dumb JSON parser
+            </a>{' '}
+            that initially built to works with{' '}
+            <a
+              href="https://github.com/RayhanHamada/jsonku"
+              className="underline"
+            >
+              Exprezeene
+            </a>
+            .
+          </p>
+          <p>
+            Or when that time i build a{' '}
+            <a
+              href="https://github.com/RayhanHamada/antlrtoolforyou"
+              className="underline"
+            >
+              GUI JavaFX app
+            </a>{' '}
+            to generate a parser and lexer with{' '}
+            <a href="" className="underline">
+              ANTLR 4 CLI
+            </a>
+            ,
+          </p>
+          <p>
+            Then after i'm getting used to terminal and bash i realize
+            something,
+          </p>
+          <p className="text-2xl">
+            "Why the hell i build it in the first place ?"
+          </p>
+        </div>
       </div>
     </MainLayout>
   );
