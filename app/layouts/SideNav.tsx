@@ -15,7 +15,7 @@ const links = [
     icon: AiFillProject,
   },
   {
-    to: '/stack',
+    to: '/tech',
     title: 'Tech Stack',
     icon: FaJs,
   },
