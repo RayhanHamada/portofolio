@@ -35,6 +35,10 @@ export default function Index() {
         </p>
         <hr className="h-[1px] w-[80%] bg-[#e41749]" />
         <div className="w-[80%] text-center space-y-8">
+          <p className="text-xl text-[#e41749]">
+            TLDR: I like to try things, if the effort doesn't output the exact
+            things i want, i'm more than happy to eat the burnt cake.
+          </p>
           <p className="">
             Honestly, i don't really know how i got here. All i know i was
             facing some problems, go try to build solution to solve it, or even
@@ -69,14 +73,14 @@ export default function Index() {
           <p>
             And instead, i finish{' '}
             <a
-              href="https://github.com/RayhanHamada/Exprezeene"
+              href="https://github.com/RayhanHamada/jsonku"
               className="underline"
             >
               a dumb JSON parser
             </a>{' '}
             that initially built to works with{' '}
             <a
-              href="https://github.com/RayhanHamada/jsonku"
+              href="https://github.com/RayhanHamada/Exprezeene"
               className="underline"
             >
               Exprezeene
@@ -103,6 +107,10 @@ export default function Index() {
           </p>
           <p className="text-2xl">
             "Why the hell i build it in the first place ?"
+          </p>
+          <p>
+            And so this "try, failed, produce-other-things-instead" became a
+            loop. And i kinda like it.
           </p>
         </div>
       </div>
