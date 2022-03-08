@@ -26,7 +26,7 @@ export default function Index() {
           alt="Foto Profil"
           className="w-[120px] max-w-[200px] h-auto rounded-1 md:w-[200px]"
         />
-
+        <p className="">Hi, my name is</p>
         <p className="text-[#e41749] text-md md:text-2xl lg:text-5xl font-bold tracking-wide">
           Muhammad Rayhan Hamada Budiman
         </p>
@@ -69,7 +69,10 @@ export default function Index() {
             </a>{' '}
             (in bahasa you can call it "Ekspresiin")
           </p>
-          <p className="text-[#e41749]">But it failed :(</p>
+          <p className="text-[#e41749]">
+            But it failed :({' '}
+            <small className="text-xs">more like unfinished</small>
+          </p>
           <p>
             And instead, i finish{' '}
             <a
@@ -96,10 +99,10 @@ export default function Index() {
               GUI JavaFX app
             </a>{' '}
             to generate a parser and lexer with{' '}
-            <a href="" className="underline">
-              ANTLR 4 CLI
-            </a>
-            ,
+            <a href="https://github.com/antlr/antlr4" className="underline">
+              ANTLR 4
+            </a>{' '}
+            CLI,
           </p>
           <p>
             Then after i'm getting used to terminal and bash i realize
