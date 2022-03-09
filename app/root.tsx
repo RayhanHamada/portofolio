@@ -41,7 +41,7 @@ export default function App() {
         <Meta />
         <Links />
       </head>
-      <body className="font-mono bg-[#303030]">
+      <body className="font-mono bg-[#303030] min-h-screen flex flex-col justify-between">
         <Header />
         <SideNav />
         <Outlet />
