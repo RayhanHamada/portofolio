@@ -1,14 +1,11 @@
 import { ErrorBoundaryComponent, RouteComponent } from 'remix';
 import MainLayout from '~/layouts/MainLayout';
+import ProjectLayout from '~/layouts/routeLayouts/ProjectLayout';
 
 const Projects: RouteComponent = (_props) => {
   return (
     <MainLayout>
-      <div className="w-full ">
-        <p className="text-center text-2xl text-[#e41749]">
-          Under Construction
-        </p>
-      </div>
+      <ProjectLayout />
     </MainLayout>
   );
 };
