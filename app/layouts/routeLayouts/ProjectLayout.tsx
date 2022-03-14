@@ -12,7 +12,19 @@ const ProjectLayout: React.FC = (_props) => {
           My Projects
         </p>
         {/* list projects */}
-        <div className="w-full flex flex-col justify-center"></div>
+        <div className="w-full flex flex-col align-center">
+          <p className="text-center pt-8">
+            Under Construction, click{' '}
+            <a
+              href="https://github.com/RayhanHamada"
+              target="_blank"
+              className="underline"
+            >
+              Here
+            </a>{' '}
+            to see my projects
+          </p>
+        </div>
       </div>
     </>
   );
