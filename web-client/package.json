@@ -7,9 +7,9 @@
   "repository": "https://github.com/RayhanHamada/my-remix-portfolio",
   "scripts": {
     "build": "npm run build:css && remix build",
-    "build:css": "windicss app/{**/*,root}.{tsx,jsx} -m -b -o ./app/windi.css",
+    "build:css": "windicss app/{**/*.tsx,root.tsx} -m -b -o ./app/windi.css",
     "dev": "concurrently \"npm run dev:css\" \"remix dev\"",
-    "dev:css": "windicss app/{**/*,root}.{tsx,jsx} -m -d -b -o ./app/windi.css",
+    "dev:css": "windicss app/{**/*.tsx,root.tsx} -m -d -b -o ./app/windi.css",
     "postinstall": "remix setup node",
     "start": "remix-serve build",
     "rmrf-build": "rimraf build/ public/build/",
