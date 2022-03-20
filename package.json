@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/RayhanHamada/my-remix-portfolio/issues"
   },
-  "homepage": "https://github.com/RayhanHamada/my-remix-portfolio#readme"
+  "homepage": "https://github.com/RayhanHamada/my-remix-portfolio#readme",
+  "devDependencies": {
+    "turbo": "^1.1.6"
+  }
 }
