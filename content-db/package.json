@@ -1,0 +1,19 @@
+{
+  "name": "content-db",
+  "version": "1.0.0",
+  "description": "portfolio content",
+  "scripts": {
+    "push": "prisma db push"
+  },
+  "keywords": [],
+  "author": "RayhanHamada",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^3.11.0"
+  },
+  "devDependencies": {
+    "esno": "^0.14.1",
+    "prisma": "^3.11.0",
+    "typescript": "^4.6.2"
+  }
+}

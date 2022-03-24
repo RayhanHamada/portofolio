@@ -1,2 +1,3 @@
 packages:
   - 'web-client'
+  - 'content-db'
