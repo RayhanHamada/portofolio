@@ -1,22 +1,19 @@
 {
-  "name": "portfolio-remix",
+  "name": "portfolio",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "description": "Monorepo of my portofolio",
+  "scripts": {},
+  "keywords": [],
+  "author": "Muhammad Rayhan Hamada Budiman <rayhanhamada1999@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RayhanHamada/my-remix-portfolio.git"
+    "url": "git+https://github.com/RayhanHamada/portofolio"
   },
-  "keywords": [],
-  "author": "RayhanHamada",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/RayhanHamada/my-remix-portfolio/issues"
+    "url": "https://github.com/RayhanHamada/portofolio/issues"
   },
-  "homepage": "https://github.com/RayhanHamada/my-remix-portfolio#readme",
+  "homepage": "https://github.com/RayhanHamada/portofolio#readme",
   "devDependencies": {
     "turbo": "^1.4.5"
   }
