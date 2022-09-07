@@ -35,7 +35,7 @@
     "windicss": "^3.5.6"
   },
   "engines": {
-    "node": ">=14"
+    "node": ">=16"
   },
   "sideEffects": false
 }
