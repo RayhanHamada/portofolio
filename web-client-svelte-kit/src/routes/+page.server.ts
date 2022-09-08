@@ -1,7 +1,7 @@
 import octokit from 'src/utils/octokit';
 import type { PageServerLoad } from './$types';
 
-export const load: PageServerLoad = async function ({ params }) {
+export const load: PageServerLoad = async function () {
   const avatarURL = octokit.rest.users
     .getByUsername({
       username: 'RayhanHamada',
