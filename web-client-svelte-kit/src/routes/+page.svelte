@@ -15,6 +15,17 @@
     'postgresql-original',
     'googlecloud-original',
   ];
+
+  const links = [
+    {
+      link: 'https://github.com/RayhanHamada',
+      logo: 'github-original',
+    },
+    {
+      link: 'https://www.linkedin.com/in/muhammad-rayhan-hamada-budiman-033021194/',
+      logo: 'linkedin-original',
+    },
+  ];
 </script>
 
 <div class="w-full flex flex-col items-center space-y-8">
@@ -31,7 +42,7 @@
     Student. Programmer. <strike>Procrastinator</strike>. Web Developer.
   </p>
   <hr class="h-[1px] w-[80%] bg-[#e41749] border-0" />
-  <p class="text-lg">I'm quite familiar with these technologies</p>
+  <p class="text-lg font-bold">I'm quite familiar with these technologies</p>
   <div class="flex flex-row space-x-4">
     {#each deviconLogos as devLogos}
       <img
@@ -41,6 +52,21 @@
         alt={devLogos}
         class="h-[25px] md:h-[45px]"
       />
+    {/each}
+  </div>
+
+  <p class="text-lg font-bold">You can find me on these links</p>
+  <div class="flex flex-row space-x-4">
+    {#each links as lo}
+      <a href={lo.link}>
+        <img
+          class="h-[25px] md:h-[45px]"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/{lo.logo.split(
+            '-'
+          )[0]}/{lo.logo}.svg"
+          alt={lo.logo}
+        />
+      </a>
     {/each}
   </div>
 </div>
