@@ -1,3 +1,8 @@
+<script lang="ts">
+  import type { PageData } from './$types';
+  export let data: PageData;
+</script>
+
 <div>
-  <p>test</p>
+  <img src={data.avatarURL} alt="" />
 </div>
