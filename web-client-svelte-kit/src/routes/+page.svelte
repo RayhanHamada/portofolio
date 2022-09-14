@@ -58,7 +58,7 @@
   <p class="text-lg font-bold">You can find me on these links</p>
   <div class="flex flex-row space-x-4">
     {#each links as lo}
-      <a href={lo.link}>
+      <a href={lo.link} target="_blank">
         <img
           class="h-[25px] md:h-[45px]"
           src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/{lo.logo.split(
@@ -69,4 +69,9 @@
       </a>
     {/each}
   </div>
+  <a
+    href="https://1drv.ms/b/s!AkHRxXV_ERCXihIgArOYtt3qfha9?e=aCYYs1"
+    target="_blank"
+    class="font-bold text-2xl underline underline-offset-4">My CV</a
+  >
 </div>
