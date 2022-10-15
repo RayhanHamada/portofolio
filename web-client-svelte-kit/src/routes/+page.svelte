@@ -1,31 +1,8 @@
 <script lang="ts">
   import type { PageData } from './$types';
+  import { cvLink, deviconLogos, links } from 'src/utils/constants';
+
   export let data: PageData;
-
-  const deviconLogos = [
-    'html5-original',
-    'css3-original',
-    'typescript-original',
-    'javascript-original',
-    'react-original',
-    'dart-original',
-    'flutter-original',
-    'npm-original-wordmark',
-    'yarn-original',
-    'postgresql-original',
-    'googlecloud-original',
-  ];
-
-  const links = [
-    {
-      link: 'https://github.com/RayhanHamada',
-      logo: 'github-original',
-    },
-    {
-      link: 'https://www.linkedin.com/in/muhammad-rayhan-hamada-budiman-033021194/',
-      logo: 'linkedin-original',
-    },
-  ];
 </script>
 
 <div class="w-full flex flex-col items-center space-y-8">
@@ -46,9 +23,7 @@
   <div class="flex flex-row space-x-4">
     {#each deviconLogos as devLogos}
       <img
-        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/{devLogos.split(
-          '-'
-        )[0]}/{devLogos}.svg"
+        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/{devLogos}.svg"
         alt={devLogos}
         class="h-[25px] md:h-[45px]"
       />
@@ -61,16 +36,14 @@
       <a href={lo.link} target="_blank">
         <img
           class="h-[25px] md:h-[45px]"
-          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/{lo.logo.split(
-            '-'
-          )[0]}/{lo.logo}.svg"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/{lo.logo}.svg"
           alt={lo.logo}
         />
       </a>
     {/each}
   </div>
   <a
-    href="https://1drv.ms/b/s!AkHRxXV_ERCXihIgArOYtt3qfha9?e=aCYYs1"
+    href={cvLink}
     target="_blank"
     class="font-bold text-2xl underline underline-offset-4">My CV</a
   >
