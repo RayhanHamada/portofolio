@@ -33,7 +33,7 @@
   <p class="text-lg font-bold">You can find me on these links</p>
   <div class="flex flex-row space-x-4">
     {#each links as lo}
-      <a href={lo.link} target="_blank">
+      <a href={lo.link} target="_blank" rel="noreferrer">
         <img
           class="h-[25px] md:h-[45px]"
           src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/{lo.logo}.svg"
@@ -45,6 +45,7 @@
   <a
     href={cvLink}
     target="_blank"
+    rel="noreferrer"
     class="font-bold text-2xl underline underline-offset-4">My CV</a
   >
 </div>

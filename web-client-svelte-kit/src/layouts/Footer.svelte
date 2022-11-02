@@ -4,11 +4,23 @@
   <p class="text-[#e41749] text-center text-xs">
     <a href="/" class="underline"> This Website </a>{' '}
     created by Muhammad Rayhan Hamada Budiman. Made using{' '}
-    <a href="https://kit.svelte.dev/" class="underline" target="_blank">
+    <a
+      href="https://kit.svelte.dev/"
+      class="underline"
+      target="_blank"
+      rel="noreferrer"
+    >
       SvelteKit
     </a>{' '}
     and{' '}
-    <a href="https://vitejs.dev/" class="underline" target="_blank"> ViteJS </a>
+    <a
+      href="https://vitejs.dev/"
+      class="underline"
+      target="_blank"
+      rel="noreferrer"
+    >
+      ViteJS
+    </a>
     .
   </p>
 </footer>
