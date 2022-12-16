@@ -15,6 +15,6 @@
   },
   "homepage": "https://github.com/RayhanHamada/portofolio#readme",
   "devDependencies": {
-    "turbo": "^1.4.5"
+    "turbo": "^1.6.3"
   }
 }
